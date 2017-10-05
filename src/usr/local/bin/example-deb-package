@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "this is an example deb package"
+echo "here are some args: $0, $1, $2, $3"
+echo "that's all"

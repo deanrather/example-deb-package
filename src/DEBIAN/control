@@ -1,0 +1,5 @@
+Package: example-deb-package
+Version: 0.0.1
+Maintainer: example maintainer
+Architecture: all
+Description: example description
