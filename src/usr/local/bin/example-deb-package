@@ -1,4 +1,20 @@
-#!/bin/bash
-echo "this is an example deb package"
-echo "here are some args: $0, $1, $2, $3"
-echo "that's all"
+#!/bin/bash -e
+
+basename="$(basename $0)"
+dir="/usr/local/$basename/bin"
+if [ -z "$1" ]
+then
+  echo "error: required operation"
+  echo -n "available options are: "
+  ls "$dir"
+  exit 1
+fi
+
+path="$dir/$1"
+if [ -x "$path" ]
+then
+  shift
+  "$path" "$@"
+else
+  echo "error: $path is not executable"
+fi
