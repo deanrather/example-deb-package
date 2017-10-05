@@ -15,6 +15,12 @@ To uninstall a package, run:
 
 ---
 
+## Making your own from this template
+
+- search the project for all files and folders containing the string "example" and change it!
+
+---
+
 Thanks to [King Foo](http://www.king-foo.com/2011/11/creating-debianubuntu-deb-packages) for the simple guide.
 
 
