@@ -6,7 +6,12 @@ To build a package, run:
 
 To install a package, run:
 
-    sudo dpkg -i example-deb-package.deb
+    ./install.sh
+
+
+To uninstall a package, run:
+
+    ./uninstall.sh
 
 ---
 
