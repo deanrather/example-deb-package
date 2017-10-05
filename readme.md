@@ -6,7 +6,7 @@ To build a package, run:
 
 To install a package, run:
 
-    sudo dpkg -i example-deb-package
+    sudo dpkg -i example-deb-package.deb
 
 ---
 
